@@ -12,7 +12,7 @@
   </TemplateData>
   <TemplateContent />
   <WizardExtension>
-    <Assembly>Microsoft.EntityFrameworkCore.VisualStudio</Assembly>
+    <Assembly>Microsoft.EntityFrameworkCore.VisualStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=994a03c98fdf9527</Assembly>
     <FullClassName>Microsoft.EntityFrameworkCore.VisualStudio.ModelWizard</FullClassName>
   </WizardExtension>
 </VSTemplate>
