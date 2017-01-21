@@ -14,6 +14,9 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ModelTemplate" d:TargetPath="|ModelTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
     <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" AssemblyName="|%CurrentProject%;AssemblyName|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" Path="|Dsl|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" Path="|DslPackage|" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" Path="|DslPackage;PkgdefProjectOutputGroup|" />
   </Assets>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />

@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{af352b46-7a32-4719-9510-8d8982b5231a}</TemplateID>
+		<Name Package="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" ID="103"/>
+		<Description Package="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" ID="102"/>
+		<Icon Package="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>EFDesigner.ef</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.ef">ef.ef</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.ef.diagram">ef.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
