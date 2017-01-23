@@ -12,11 +12,11 @@
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ModelTemplate" d:TargetPath="|ModelTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Microsoft.EntityFrameworkCore.Modeling" Path="|Microsoft.EntityFrameworkCore.Modeling|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%.Modeling" Path="|Microsoft.EntityFrameworkCore.VisualStudio.Modeling|" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%.Modeling" Path="|Microsoft.EntityFrameworkCore.VisualStudio.Modeling;PkgdefProjectOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" AssemblyName="|%CurrentProject%;AssemblyName|" />
-    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" Path="|Dsl|" />
-    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" Path="|DslPackage|" />
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" Path="|DslPackage;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="DbContextItemTemplate" d:TargetPath="|DbContextItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
   </Assets>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
