@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using EnvDTE;
 using Microsoft.VisualStudio.TemplateWizard;
 
@@ -6,22 +7,6 @@ namespace Microsoft.EntityFrameworkCore.VisualStudio
 {
     internal class ModelWizard : IWizard
     {
-        public void BeforeOpeningFile(ProjectItem projectItem)
-        {
-        }
-
-        public void ProjectFinishedGenerating(Project project)
-        {
-        }
-
-        public void ProjectItemFinishedGenerating(ProjectItem projectItem)
-        {
-        }
-
-        public void RunFinished()
-        {
-        }
-
         public void RunStarted(
             object automationObject,
             Dictionary<string, string> replacementsDictionary,
@@ -36,7 +21,26 @@ namespace Microsoft.EntityFrameworkCore.VisualStudio
 
         public bool ShouldAddProjectItem(string filePath)
         {
-            return true;
+            throw new NotImplementedException();
+        }
+
+        public void ProjectItemFinishedGenerating(ProjectItem projectItem)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ProjectFinishedGenerating(Project project)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void BeforeOpeningFile(ProjectItem projectItem)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RunFinished()
+        {
         }
     }
 }
