@@ -1,4 +1,4 @@
-<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
+<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Microsoft.EntityFrameworkCore.Modeling\DslDefinition.dsl'" #>
 <#
 	// CmdSet Guid must be defined before master template is included
 	// This Guid must be kept synchronized with the CommandSetId Guid in Constants.tt

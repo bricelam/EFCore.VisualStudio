@@ -28,7 +28,7 @@ namespace Microsoft.EntityFrameworkCore.Modeling
 		public static readonly global::System.ComponentModel.Design.CommandID ViewEntityFrameworkCoreExplorerCommand = new global::System.ComponentModel.Design.CommandID(new global::System.Guid(EntityFrameworkCoreCommandSetId), 0x0001);
 	
 		// Package identifier
-		public const string EntityFrameworkCorePackageId = "87b3c060-02a0-44d0-973e-8689d8f422cc";
+		public const string EntityFrameworkCorePackageId = "48725ce7-28dd-4de1-bd40-cfe6f4ab6a88";
 		
 		// Editor factory identifier
 		public const string EntityFrameworkCoreEditorFactoryId = "6cf53e01-4ed1-4b31-baa6-6fcda0da4cf1";

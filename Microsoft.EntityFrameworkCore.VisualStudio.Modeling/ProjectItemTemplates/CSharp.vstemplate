@@ -2,9 +2,9 @@
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<TemplateData>
 		<TemplateID>{15b31ec3-3c7a-41e7-bcf3-2faec41a3be1}</TemplateID>
-		<Name Package="{87b3c060-02a0-44d0-973e-8689d8f422cc}" ID="103"/>
-		<Description Package="{87b3c060-02a0-44d0-973e-8689d8f422cc}" ID="102"/>
-		<Icon Package="{87b3c060-02a0-44d0-973e-8689d8f422cc}" ID="201" />
+		<Name Package="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" ID="103"/>
+		<Description Package="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" ID="102"/>
+		<Icon Package="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" ID="201" />
 		<ProjectType>CSharp</ProjectType>
 		<SortOrder>360</SortOrder>
 		<DefaultName>EntityFrameworkCore.efmd</DefaultName>

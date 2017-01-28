@@ -1,4 +1,4 @@
-﻿<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\Dsl\DslDefinition.dsl'" #>
+﻿<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\Microsoft.EntityFrameworkCore.Modeling\DslDefinition.dsl'" #>
 <#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
 <#@ output extension=".vsixmanifest" #>
 <#

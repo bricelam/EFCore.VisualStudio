@@ -40,7 +40,7 @@
   </PropertyGroup>
   <!-- Project specific properties to control T4/DSL targets -->
   <PropertyGroup>
-    <!--<TransformOnBuild>True</TransformOnBuild>-->
+    <TransformOnBuild>True</TransformOnBuild>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(DslTargetsPath)\Microsoft.DSLTools.targets" />

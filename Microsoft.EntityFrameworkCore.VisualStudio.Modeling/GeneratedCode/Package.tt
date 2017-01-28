@@ -5,7 +5,7 @@
     it is not recommended for use in a production environment.
 ***************************************************************************/
 #>
-<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
+<#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Microsoft.EntityFrameworkCore.Modeling\DslDefinition.dsl'" #>
 <#
 	//DSL assembly name - used for toolbox item registration. 
 	//This value is initially set to the default AssemblyName of the Dsl.csproj 

@@ -103,7 +103,7 @@
   <VisibilityItem guid="guidCmdSet" id="cmdidViewExplorer" context="guidEditor" />
 </VisibilityConstraints>
 <Symbols>
-  <GuidSymbol name="guidPkg" value="{87b3c060-02a0-44d0-973e-8689d8f422cc}" />
+  <GuidSymbol name="guidPkg" value="{48725ce7-28dd-4de1-bd40-cfe6f4ab6a88}" />
   <GuidSymbol name="guidCmdSet" value="{17f792a7-8737-490e-bb01-5036b39c393c}" >
     <IDSymbol name="menuidContext" value="0x10000"/>
     <IDSymbol name="grpidContextMain" value="0x20000"/>
